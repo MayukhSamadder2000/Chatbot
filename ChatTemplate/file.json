@@ -1,0 +1,48 @@
+{
+  "greeting": {
+    "train": ["hi","Hello","Hey","Yo","hi","Good morning","Good afternoon","good evening","namaste"],
+    "entities": [],
+    "reply": ["Hello","Hey","Yo","Same to you friend"]
+  },
+  "timepass": {
+    "train": ["How are you doing","weather is very good","You Seem to be fine","Seem to be very jolly"
+    ,"The weather is amazing","The weather seems extremely good","the weather is very good today"],
+    "entities": [],
+    "reply": ["Fine indeed sir/ma'am"]
+  },
+  "booking": {
+    "train": ["I want to book a hotel","Book a hotel for me","I want to book a flight","Please book a room for me","Please book a hotel for me","Book my flight asap"
+    ,"I am requesting you to book a hotel"],
+    "entities": [],
+    "reply": ["Ok your request is being processed,please type in the location"]
+  },
+  "location": {
+    "train": ["Wanna book a flight from Kolkata","Wanna book from Delhi","i want to book a flight from China"
+    ,"I want to book a flight from kolkata","Want to book aFlight from Kolkata to China"
+    ,"Kolkata","Delhi","China","kolkata","china","delhi"],
+    "entities": [{"GPE": "Kolkata"},{"GPE": "China"},{"GPE": "Delhi"}],
+    "reply": ["Booked Requested from kolkata, can you type in the day?","Booked Requested from China, can you type in the day?","Booked Requested from Delhi, can you type in the day?"]
+  },
+  "Checkout": {"train": ["I want to leave my Hotel",
+    "I want to leave my hotel.",
+    "I don't want to stay in this hotel anymore.",
+    "I am willing to Leave my Hotel",
+    "I want to leave this hotel",
+    "I want to leave this room",
+    "I don't want to stay in Kolkata any more",
+    "Cancel it please",
+  "Cancel my flight"],
+    "entities": [],
+    "reply": ["Ok i will be informing the manager","Ok sir thank you for your response"]
+  },
+  "Date": {
+    "train": ["Monday","Tuesady","Weekends","Saturday","Sunday","Friday","Thursday","I want to book my flight from kolkata on monday"],
+    "entities": [],
+    "reply": ["Ok your details will be send to the authority"]
+  },
+  "useless": {
+    "train": ["Who do you think you are","What are you doing","Are you alright","I love you","I don't understand you either"],
+    "entities": [],
+    "reply": []
+  }
+}
